@@ -1,0 +1,12 @@
+Vivado Simulator 2016.4
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: E:/Faculta/AN2_SEM2/AC_LAB/Vivado/2016.4/bin/unwrapped/win64.o/xelab.exe -wto 88824a7a64424a07bd57579a9b675a28 --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot test_bench_behav xil_defaultlib.test_bench -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+ERROR: [VRFC 10-718] formal port <outt1> does not exist in entity <test_env>.  Please compare the definition of block <test_env> to its component declaration and its instantion to detect the mismatch. [E:/Faculta/AN2_SEM2/AC_LAB/project_2/project_2.srcs/sim_1/new/test_bench.vhd:48]
+ERROR: [VRFC 10-718] formal port <outt2> does not exist in entity <test_env>.  Please compare the definition of block <test_env> to its component declaration and its instantion to detect the mismatch. [E:/Faculta/AN2_SEM2/AC_LAB/project_2/project_2.srcs/sim_1/new/test_bench.vhd:49]
+ERROR: [VRFC 10-718] formal port <outt3> does not exist in entity <test_env>.  Please compare the definition of block <test_env> to its component declaration and its instantion to detect the mismatch. [E:/Faculta/AN2_SEM2/AC_LAB/project_2/project_2.srcs/sim_1/new/test_bench.vhd:50]
+ERROR: [VRFC 10-718] formal port <outt4> does not exist in entity <test_env>.  Please compare the definition of block <test_env> to its component declaration and its instantion to detect the mismatch. [E:/Faculta/AN2_SEM2/AC_LAB/project_2/project_2.srcs/sim_1/new/test_bench.vhd:51]
+ERROR: [VRFC 10-718] formal port <outt5> does not exist in entity <test_env>.  Please compare the definition of block <test_env> to its component declaration and its instantion to detect the mismatch. [E:/Faculta/AN2_SEM2/AC_LAB/project_2/project_2.srcs/sim_1/new/test_bench.vhd:52]
+ERROR: [VRFC 10-718] formal port <outt6> does not exist in entity <test_env>.  Please compare the definition of block <test_env> to its component declaration and its instantion to detect the mismatch. [E:/Faculta/AN2_SEM2/AC_LAB/project_2/project_2.srcs/sim_1/new/test_bench.vhd:53]
+ERROR: [XSIM 43-3321] Static elaboration of top level VHDL design unit test_bench in library work failed.

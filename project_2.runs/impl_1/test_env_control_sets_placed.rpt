@@ -1,0 +1,81 @@
+Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+-------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2016.4 (win64) Build 1756540 Mon Jan 23 19:11:23 MST 2017
+| Date         : Thu Apr 18 17:54:17 2024
+| Host         : DESKTOP-NNNNE7H running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file test_env_control_sets_placed.rpt
+| Design       : test_env
+| Device       : xc7a100t
+-------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Flip-Flop Distribution
+3. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Number of unique control sets                            |    20 |
+| Unused register locations in slices containing registers |    10 |
++----------------------------------------------------------+-------+
+
+
+2. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |              69 |           18 |
+| No           | No                    | Yes                    |               0 |            0 |
+| No           | Yes                   | No                     |               0 |            0 |
+| Yes          | No                    | No                     |             514 |          261 |
+| Yes          | No                    | Yes                    |              31 |           12 |
+| Yes          | Yes                   | No                     |               0 |            0 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+3. Detailed Control Set Information
+-----------------------------------
+
++----------------+-----------------------------------------+----------------------+------------------+----------------+
+|  Clock Signal  |              Enable Signal              |   Set/Reset Signal   | Slice Load Count | Bel Load Count |
++----------------+-----------------------------------------+----------------------+------------------+----------------+
+|  clk_IBUF_BUFG | test_env_MPG1/eqOp                      |                      |                1 |              2 |
+|  clk_IBUF_BUFG | test_env_MPG1/pc_reg_reg[1][0]          | test_env_MPG21/AR[0] |               12 |             31 |
+|  clk_IBUF_BUFG | test_env_IFetch/reg_file_reg[7][31][0]  |                      |               16 |             32 |
+|  clk_IBUF_BUFG | test_env_IFetch/reg_file_reg[8][31][0]  |                      |               19 |             32 |
+|  clk_IBUF_BUFG | test_env_IFetch/reg_file_reg[9][31][0]  |                      |               15 |             32 |
+|  clk_IBUF_BUFG | test_env_IFetch/reg_file_reg[5][31][0]  |                      |               17 |             32 |
+|  clk_IBUF_BUFG | test_env_IFetch/reg_file_reg[6][31][0]  |                      |               16 |             32 |
+|  clk_IBUF_BUFG | test_env_IFetch/reg_file_reg[4][31][0]  |                      |               16 |             32 |
+|  clk_IBUF_BUFG | test_env_IFetch/reg_file_reg[0][31][0]  |                      |               16 |             32 |
+|  clk_IBUF_BUFG | test_env_IFetch/reg_file_reg[10][31][0] |                      |               19 |             32 |
+|  clk_IBUF_BUFG | test_env_IFetch/reg_file_reg[11][31][0] |                      |               14 |             32 |
+|  clk_IBUF_BUFG | test_env_IFetch/reg_file_reg[12][31][0] |                      |               15 |             32 |
+|  clk_IBUF_BUFG | test_env_IFetch/reg_file_reg[13][31][0] |                      |               18 |             32 |
+|  clk_IBUF_BUFG | test_env_IFetch/reg_file_reg[14][31][0] |                      |               16 |             32 |
+|  clk_IBUF_BUFG | test_env_IFetch/reg_file_reg[15][31][0] |                      |               15 |             32 |
+|  clk_IBUF_BUFG | test_env_IFetch/reg_file_reg[1][31][0]  |                      |               12 |             32 |
+|  clk_IBUF_BUFG | test_env_IFetch/reg_file_reg[2][31][0]  |                      |               20 |             32 |
+|  clk_IBUF_BUFG | test_env_IFetch/E[0]                    |                      |               16 |             32 |
+|  clk_IBUF_BUFG | test_env_IFetch/MemWrite                |                      |                8 |             32 |
+|  clk_IBUF_BUFG |                                         |                      |               18 |             69 |
++----------------+-----------------------------------------+----------------------+------------------+----------------+
+
+
++--------+-----------------------+
+| Fanout | Number of ControlSets |
++--------+-----------------------+
+| 2      |                     1 |
+| 16+    |                    19 |
++--------+-----------------------+
+
+
